@@ -1,3 +1,7 @@
+var numTimes;
+
+
+
 function run() {
     
 var address = prompt("where do you live?");
@@ -24,11 +28,16 @@ if(have_discount=="y"){
     document.write('<h4>'+'you have a discount </br> your discont is :'+'</h4>')
 document.write('<h4>'+discount_code+'</h4>')
 }
-
+var numTimes = prompt("how many laptop you want?");
 
 document.write('<h4>'+a_msg+'</h4>')
+console.log("hi")
+for (var i =0;i<= numTimes;i++){
+    console.log("hi")
+document.write(' <img src="HP-Pavilion-Touch_Laptop-X360-14-CD1007NE-Intel_Core_i7-Egypt_Laptop-1.jpg" alt="laptop">')
 }
 
+}
 
 
 
