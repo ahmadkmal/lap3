@@ -1,3 +1,5 @@
+function run() {
+    
 var address = prompt("where do you live?");
 while (true){
 var have_discount  = prompt("do you have discount (y/n)?");
@@ -25,6 +27,7 @@ document.write('<h4>'+discount_code+'</h4>')
 
 
 document.write('<h4>'+a_msg+'</h4>')
+}
 
 
 
